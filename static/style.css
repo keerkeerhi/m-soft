@@ -1,0 +1,253 @@
+/*start  input  */
+.input_control{
+  display: inline-block;
+}
+
+input[type="text"],#btn1,#btn2{
+  height:calc(100% - 2px);
+  width: calc(100% - 32px);
+  border-radius:2px;
+  border:1px solid #c8cccf;
+  color:#6a6f77;
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  display:block;
+  outline:0;
+  padding:0 15px;
+  text-decoration:none;
+}
+input[type="text"]:focus{
+  border:1px solid #2dabff;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  font-size:14px;
+}
+/*end  input  */
+
+.blackButton
+{
+  background: #4d4d4d;
+  color: #fff;
+  font-size: 12px;
+  width: 50px;
+  height: 25px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.buttonCls
+{
+  border: none;
+  cursor: pointer;
+}
+
+.buttonCls:hover
+{
+  background: #FFFFFF;
+}
+
+.blackButton:hover
+{
+  background: #818181;
+}
+
+.blackButton[disabled="disabled"]
+{
+  opacity:0.3;
+  cursor: default;
+}
+
+
+.blueButton
+{
+  background: #2dabff;
+  color: #fff;
+  font-size: 16px;
+  width: 100px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.blueButton:hover
+{
+  background: #0096F8;
+}
+
+.blueButton[disabled="disabled"]
+{
+  opacity:0.3;
+  cursor: default;
+}
+
+.sixteenBlack{
+  font-size: 16px;
+  color: #323232;
+}
+.twelveBlack{
+  font-size: 12px;
+  color: #323232;
+}
+.thirty-
+{
+  margin-left: 30px;
+}
+.thirty-thirty
+{
+  margin: 0 30px 0 30px;
+}
+.six-twenty{
+  margin: 0 20px 0 6px;
+}
+.floatRight
+{
+  float: right;
+}
+.blueColor{
+  color: #2dabff;
+}
+.cursor{
+  cursor: pointer;
+}
+
+.septal{
+  color: #bcc8d1;
+  margin: 0 16px 0 16px;
+}
+
+.white
+{
+  color: #FFFFFF;
+}
+.gray-font
+{
+  color: #89a3b2;
+}
+/* .squaredFour --------checkBox样式 */
+.squaredFour {
+  width: 20px;
+  position: relative;
+}
+.squaredFour label {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fcfff4;
+  background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.squaredFour label:after {
+  content: '';
+  width: 9px;
+  height: 5px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border: 3px solid #333;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.squaredFour label:hover::after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+.squaredFour input[type=checkbox] {
+  visibility: hidden;
+}
+.squaredFour input[type=checkbox]:checked + label:after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* end .squaredFour */
+
+
+/* reset */
+body, h1, h2, h3, h4, h5, h6, hr, p,span,blockquote,
+dl, dt, dd, ul, ol, li,
+pre,div,
+fieldset, button, input, textarea,tr
+th, td ,iframe,table,tr,td,img.span,label{
+  margin:0;
+  padding:0;
+}
+
+/* 设置默认字体 */
+body,
+button, input, select, textarea { /* for ie */
+  /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+  font: 16px/1 "Microsoft YaHei"; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+  vertical-align: middle;
+}
+input,img,button{border:0 none;}
+h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+/* 重置文本格式元素 */
+a.link,a:visited,a:hover,a:active{ text-decoration: none; cursor: pointer;outline:none;}/*
+a:hover { text-decoration: underline; }*/
+
+abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+/* 重置表单元素 */
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+  font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+/* 重置表格元素 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 重置 hr */
+hr {
+  border: none;
+  height: 1px;
+}
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+/*html { overflow-y: scroll; }*/
+.clearfix:before,.clearfix:after{display: table;content: " ";}
+.clearfix:after{clear: both;}
+.arrow1{
+  width: 0px;
+  height:0px;
+  line-height: 0px;
+  border-width: 5px 5px 0;
+  border-style: solid dashed dashed dashed;
+  border-color:#868686 transparent;
+  vertical-align: bottom;
+  margin-right:10px;
+}
+
+/* end reset */
