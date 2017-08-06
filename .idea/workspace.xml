@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ffe6725-c921-4c42-80cd-1616e0295fb3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/m-soft.iml" afterPath="$PROJECT_DIR$/.idea/m-soft.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/program/img/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/program/img/cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/program/img/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/program/img/small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/program/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/program/js/action.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/program/js/vue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/program/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/program/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.bff5f3b3389d18a2664f0714b9bb81a5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.bff5f3b3389d18a2664f0714b9bb81a5.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/ionicons.05acfdb.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/ionicons.24712f6.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/ionicons.2c2ae06.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/ionicons.c037dbb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/psb.ee5fe76.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.2824bf9b2b527f55abdb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.2824bf9b2b527f55abdb.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.883ed753a7531424e827.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.883ed753a7531424e827.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.447c77c87eaf0c9d72b8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.447c77c87eaf0c9d72b8.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/psb.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,46 +61,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
               <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -193,10 +178,6 @@
               <option name="myItemId" value="m-soft" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-nw-seed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -210,16 +191,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="m-soft" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m-soft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m-soft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -336,12 +307,12 @@
       <workItem from="1496241422562" duration="5283000" />
       <workItem from="1498747880046" duration="1143000" />
       <workItem from="1501442922508" duration="452000" />
-      <workItem from="1502031615477" duration="539000" />
+      <workItem from="1502031615477" duration="886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7799000" />
+    <option name="totallyTimeSpent" value="8146000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -697,7 +668,7 @@
     <entry file="file://$PROJECT_DIR$/program/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
