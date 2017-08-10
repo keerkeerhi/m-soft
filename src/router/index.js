@@ -5,14 +5,27 @@ import iView from '../iview/index';
 import locale from '../iview/locale/lang/zh-CN';
 
 Vue.use(Router)
-Vue.use(iView, { locale });
+Vue.use(iView, {locale});
 
 export default new Router({
   routes: [
     {
       path: '/',
       name: 'Hello',
-      component: require('../components/Index')
+      redirect: './Login',
+      component: require('../components/Index'),
+      children: [
+        {
+          path: '/Login',
+          name: 'Hello',
+          component: require('../components/Login/Login')
+        },
+        {
+          path: '/Home',
+          name: 'Home',
+          component: require('../components/Home/Home')
+        }
+      ]
     }
   ]
 })
